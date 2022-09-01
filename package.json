@@ -1,0 +1,27 @@
+{
+  "name": "studion",
+  "version": "0.0.1",
+  "description": "Homepage for Studion Event provider and services",
+  "main": "src/index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/cristian-sbardelotto/studion.git"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JavaScript"
+  ],
+  "author": "Cristian Sbardelotto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/cristian-sbardelotto/studion/issues"
+  },
+  "homepage": "https://github.com/cristian-sbardelotto/studion#readme",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
