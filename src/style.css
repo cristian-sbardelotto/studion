@@ -99,7 +99,7 @@ ul {
 
 .slide {
   position: relative;
-  height: calc(100vh - 7.75rem);
+  height: calc(90vh - 7.75rem);
 }
 
 .slide__background-image {
@@ -209,10 +209,60 @@ ul {
   font-family: "Roboto", sans-serif;
   font-size: 1.0625rem;
   line-height: 1.6875rem;
+  margin: 0;
   margin-bottom: 2.5rem;
 }
 
 .btn--institutional:hover {
   color: var(--color-copy);
   background: unset;
+  box-shadow: 0 1rem 1rem #0006;  /*  x, y, blur, color  */
+}
+
+.quote {
+    background-image: url(./images/parallax.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.quote__container {
+    display: grid;
+    align-items: center;
+    justify-items: end;
+    min-height: 80vh;
+}
+
+.quote__copy {
+    background-color: #fff;
+    padding: 5.625rem 4.375rem;
+}
+
+.quote__copy h6 {
+    font-weight: 400;
+    font-size: .9375rem;
+    letter-spacing: .1875rem;
+    line-height: 1.4375rem;
+    max-width: 53ch;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.quote__copy h2 {
+    font-size: 5rem;
+    line-height: 5rem;
+    text-transform: uppercase;
+    letter-spacing: -.1875rem;
+    margin: 1.875rem 0;
+}
+
+.quote__copy h2 span {
+    display: block;
+}
+
+.btn--quote {
+    color: var(--color-copy);
+    border-color: var(--color-copy);
+    background: unset;  
 }
