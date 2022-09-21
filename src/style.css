@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700;900&family=Roboto&display=swap");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/fontawesome.min.css");
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css");
 
 * {
   box-sizing: border-box;
@@ -21,7 +23,7 @@ body {
 header,
 main,
 footer {
-  /* overflow-x: hidden;       TIREI ISSO PQ TÁ DANDO UM ERRO QUE CRIA UMA SEGUNDA BARRA DE ROLAGEM NA TAG IMAGE*/
+   overflow-x: hidden;
 }
 
 .container {
@@ -99,7 +101,7 @@ ul {
 
 .slide {
   position: relative;
-  height: calc(90vh - 7.75rem);
+  /* height: calc(90vh - 7.75rem); */
 }
 
 .slide__background-image {
@@ -265,4 +267,50 @@ ul {
     color: var(--color-copy);
     border-color: var(--color-copy);
     background: unset;  
+}
+
+.footer {
+  background-color: #000;
+  color: #fff;
+  padding: 0 1rem
+}
+
+.footer__container {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  align-items: center;
+  padding: 5.25rem 0 3.75rem 0 ;
+}
+
+.footer .logo-studion {
+  justify-self: start;
+  margin: 0;
+}
+
+.logo-studion__subtitle {
+  display: block;
+}
+
+.footer__form {
+  display: grid;
+  place-items: center;
+  grid-template-columns: 9ch auto;
+  gap: 1.25rem;
+}
+.footer__form label {
+  font-size: .875rem;
+  font-weight: 300;
+  text-align: center;
+}
+.footer__form fieldset {
+  border: unset;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+.footer__form input {
+  width: 100%;
+}
+.footer__social {
+  justify-self: end;
 }
