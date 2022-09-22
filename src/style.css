@@ -43,8 +43,7 @@ ul {
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #000;
-    /* vermelho / verde / azul / transparência - 0 - F */
+    background-color: #000; /* vermelho / verde / azul / transparência - 0 - F */
     color: #fff;
 }
 
@@ -103,7 +102,6 @@ ul {
 
 .slide {
     position: relative;
-    /* height: calc(90vh - 7.75rem); */
 }
 
 .slide__background-image {
@@ -353,4 +351,14 @@ ul {
 .footer__social a .fa-twitter:visited,
 .footer__social a .fa-twitter:active {
     color: #000;
+}
+.footer hr {
+    border-color: #fff4;
+    margin: 0;
+}
+.footer p {
+    text-align: center;
+    font-size: .875rem;
+    font-weight: 300;
+    margin: 2.5rem 0;
 }
