@@ -1,6 +1,15 @@
-#slider {
+.slider {
     background-color: #000;
     color: #fff;
+}
+
+.slider__prev-arrow {
+    z-index: 1;
+    left: 0;
+}
+
+.slick-next {
+    right: 0;
 }
 
 .slide {
