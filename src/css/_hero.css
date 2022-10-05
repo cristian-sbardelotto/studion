@@ -1,12 +1,19 @@
 .hero {
     position: relative;
     height: 34.690rem;
+    background-color: #000;
 }
+
 .hero__background {
     position: absolute;
-    z-index: -1;
+    height: 100%;    
     object-fit: contain;
     object-position: center;
+}
+
+.hero__container {
+    position: relative;
+    height: 100%;
 }
 
 .hero__copy {
