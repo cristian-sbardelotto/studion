@@ -63,11 +63,11 @@
     text-decoration: none;
 }
 
-.navbar__links a:hover {
+.navbar__links a.active {
     color: var(--color-primary);
 }
 
-.navbar__links a.active {
+.navbar__links a:hover {
     color: var(--color-primary);
 }
 
@@ -85,7 +85,7 @@
 
     justify-self: end;
     align-self: start;
-    margin-top: 2rem
+    margin-top: 2rem;
 }
 
 @media screen and (min-width: 1280px) {

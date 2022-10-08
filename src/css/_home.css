@@ -7,10 +7,10 @@
 .slider__next-arrow {
     width: 2.5rem;
     height: 2.5rem;
-    border: 5px solid white;
+    border: 5px solid #fff;
     border-right: unset;
     border-bottom: unset;
-    opacity: 0.6;
+    opacity: 0.9;
 }
 
 .slider__prev-arrow {
@@ -35,12 +35,13 @@
 
 @media screen and (min-width: 1280px) {
     .slick-arrow {
-        visibility: hidden;
+        visibility: visible;
     }
 }
 
 .slide {
     position: relative;
+    height: 90vh;
 }
 
 .slide__background-image {
@@ -48,9 +49,9 @@
     height: 100%;
     object-fit: cover;
     object-position: center;
-    height: 90vh;
 }
 
+/* Mobile */
 .slide__copy {
     position: absolute;
     top: 0;
@@ -79,7 +80,6 @@
     }
 }
 
-
 .slide__copy h6 {
     font-size: 0.9375rem;
     font-weight: 400;
@@ -94,7 +94,6 @@
     line-height: 3.25rem;
 }
 
-/* Desktop */
 @media screen and (min-width: 1280px) {
     .slide__copy h2 {
         font-size: 6.25rem;
@@ -106,7 +105,7 @@
     display: block;
 }
 
-#counter {
+.counter {
     background-color: var(--color-primary);
     color: #fff;
     text-transform: uppercase;
@@ -116,7 +115,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
     place-items: center;
-    padding: 4.375rem 1rem;
+    padding: 4.375rem 0;
 }
 
 .counter__container h3 {
@@ -127,6 +126,7 @@
     display: block;
     font-size: 1.25rem;
 }
+
 /* Mobile */
 .institutional {
     display: grid;
@@ -135,26 +135,34 @@
     align-items: center;
     padding: 0 0 4.375rem 0;
 }
+
 /* Desktop */
 @media screen and (min-width: 1280px) {
     .institutional {
         grid-template-columns: auto auto;
         padding: 4.375rem;
-  }
+    }
 }
 
 .institutional__image {
-    max-width: 550px;
+    max-width: 100vw;
 }
+
+@media screen and (min-width: 1280px) {
+    .institutional__image {
+        max-width: 550px;
+    }
+}
+
 /* Mobile */
 .institutional__copy {
-    padding: 0  0 1.875rem 0;
+    padding: 0 1rem 1.875rem 1rem;
 }
 
 /* Desktop */
 @media screen and (min-width: 1280px) {
     .institutional__copy {
-        padding:  0 1.875rem;
+        padding: 0 1.875rem;
     }
 }
 
@@ -175,7 +183,7 @@
     font-family: "Roboto", sans-serif;
     font-size: 1.0625rem;
     line-height: 1.6875rem;
-    margin: 0;
+    margin-bottom: 0;
     margin-bottom: 2.5rem;
 }
 
@@ -196,20 +204,33 @@
 
 .quote__container {
     display: grid;
-    align-items: center;
+    align-items: end;
     justify-items: end;
     min-height: 80vh;
 }
 
+@media screen and (min-width: 720px) {
+    .quote__container {
+        align-items: center;
+    }
+}
+
 .quote__copy {
     background-color: #fff;
-    padding: 5.625rem 4.375rem;
+    padding: 1rem;
+    padding-bottom: 4rem;
+}
+
+@media screen and (min-width: 1280px) {
+    .quote__copy {
+        padding: 5.625rem 4.375rem;
+    }
 }
 
 .quote__copy h6 {
+    font-size: 0.8rem;
     font-weight: 400;
-    font-size: .9375rem;
-    letter-spacing: .1875rem;
+    letter-spacing: 0.1875rem;
     line-height: 1.4375rem;
     max-width: 53ch;
     text-transform: uppercase;
@@ -217,13 +238,24 @@
 }
 
 .quote__copy h2 {
-    font-size: 5rem;
-    line-height: 5rem;
+    font-size: 4rem;
+    line-height: 4rem;
     text-transform: uppercase;
-    letter-spacing: -.1875rem;
+    letter-spacing: -0.1875rem;
     margin: 1.875rem 0;
 }
 
 .quote__copy h2 span {
     display: block;
+}
+
+@media screen and (min-width: 1280px) {
+    .quote__copy h6 {
+        font-size: 0.9375rem;
+    }
+
+    .quote__copy h2 {
+        font-size: 5rem;
+        line-height: 5rem;
+    }
 }
