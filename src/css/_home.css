@@ -30,12 +30,12 @@
 }
 
 .slick-arrow {
-    display: none;
+    visibility: hidden;
 }
 
 @media screen and (min-width: 1280px) {
     .slick-arrow {
-        display: block;
+        visibility: hidden;
     }
 }
 
@@ -181,10 +181,17 @@
 
 .quote {
     background-image: url(../images/parallax.jpg);
-    background-attachment: fixed;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-size: auto 40%;
+    background-position: 40% top;
+}
+
+@media screen and (min-width: 720px) {
+    .quote {
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    }
 }
 
 .quote__container {
