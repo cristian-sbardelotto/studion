@@ -1,6 +1,6 @@
 .hero {
     position: relative;
-    height: 34.690rem;
+    height: 34.625rem;
     background-color: #000;
 }
 
@@ -17,10 +17,10 @@
 }
 
 .hero__copy {
-    width: 50vw;
     position: absolute;
     bottom: 0;
     right: 0;
+    width: 50%;
     padding: 7rem 1.875rem;
 }
 
@@ -29,7 +29,7 @@
     margin-bottom: 3rem;
     font-size: 7.5rem;
     line-height: 7.5rem;
-    letter-spacing: -.3125rem;
+    letter-spacing: -0.3125rem;
     color: var(--color-primary);
 }
 

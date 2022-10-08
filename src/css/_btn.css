@@ -21,11 +21,24 @@
     color: #fff;
 }
 
+.btn--institutional,
+.btn--quote {
+    display: block;
+    margin: 0 auto;
+}
+
 .btn--institutional:hover,
 .btn--contact:hover {
     color: var(--color-copy);
     background: unset;
     box-shadow: 0 1rem 1rem #0006;  /*  x, y, blur, color  */
+}
+
+@media screen and (min-width: 1280px) {
+    .btn--institutional,
+    .btn--quote {
+        display: inline;
+    }
 }
 
 .btn--contact:hover {
