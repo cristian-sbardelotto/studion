@@ -1,3 +1,49 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .company-hero {
-  background-color: black;
+  position: relative;
+  height: 34.875rem;
+  overflow: hidden;
+}
+
+.company-hero__image {
+  position: absolute;
+}
+
+.company-hero__copy {
+  bottom: 0;
+  right: 0;
+  height: 100px;
+  width: 500px;
+  padding: 7rem 1.875rem
+}
+
+.company-hero__title {
+  position: absolute;
+  top: 13.75rem;
+  left: 49rem;
+
+  margin: 0;
+  margin-bottom: 3rem;
+
+  font-size: 7.5rem;
+  line-height: 7.5rem;
+  letter-spacing: -0.3125rem;
+  color: yellow;
+}
+
+.company-hero__copy p {
+  position: absolute;
+  top: 24.5rem;
+  left: 49rem;
+  width: 36.8125rem;
+
+  font-size: .9375rem;
+  line-height: 1.875rem;
+  color: var(--color-copy--alt);
+
 }
