@@ -5,6 +5,7 @@
   /* relativa ao tamanho da altura do glifo 0 da fonte */
   text-transform: uppercase;
   text-align: right;
+  max-width: 7.7ch;
 }
 
 .logo-studion__subtitle {
