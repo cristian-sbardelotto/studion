@@ -45,5 +45,37 @@
   font-size: .9375rem;
   line-height: 1.875rem;
   color: var(--color-copy--alt);
+}
 
+.call {
+  margin-top: 8rem;
+}
+
+.call__container {
+  display: grid;
+  grid-template-columns: 1.75fr 1fr;
+
+}
+
+.call__container img {
+  height: 680px;
+  margin-top: 2.5rem;
+}
+
+.call h2 {
+  font-size: 1.5625rem;
+  font-weight: 700;
+
+  margin-bottom: 3.125rem;
+}
+
+.call p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 1.0625rem;
+}
+
+.call .call__fst-copy {
+  width: 25.1875rem;
+  margin-bottom: 2.8125rem;
 }
