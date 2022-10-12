@@ -4,6 +4,8 @@
   box-sizing: border-box;
 }
 
+/* SEÇÃO CALL */
+
 .call {
   margin-top: 8rem;
 }
@@ -14,7 +16,7 @@
 }
 
 .call__container img {
-  height: 680px;
+  height: 42.5rem;
   margin-top: 2.5rem;
 }
 
@@ -36,6 +38,40 @@
   margin-bottom: 2.8125rem;
 }
 
+/* SEÇÃO CALL MOBILE */
+@media screen and (max-width: 720px) {
+  .call {
+    margin: 0;
+  }
+
+  .call p {
+    max-width: 350px;
+    font-size: 15px;
+    text-align: center;
+    margin: 0;
+  }
+
+  .call h2 {
+    font-size: 16px;
+    max-width: 28ch;
+    text-align: center;
+    margin: 0 0 1rem 2rem;
+  }
+
+  .call__container img {
+    height: 80%;
+    width: 100%;
+  }
+
+  .call__container {
+    height: 700px;
+    grid-template-columns: unset;
+    grid-template-rows: 1fr 1fr;
+  }
+}
+
+/* SEÇÃO BRANDS */
+
 .brands {
   padding: 5rem 0;
 
@@ -49,6 +85,8 @@
   color: #000;
   font-weight: 800;
 }
+
+/* SEÇÃO VIDEO */
 
 .video__container {
   text-align: center;
