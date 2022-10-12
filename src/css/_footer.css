@@ -1,4 +1,4 @@
-.footer {
+footer {
     background-color: #000;
     color: #fff;
     text-align: center;
@@ -52,7 +52,7 @@
     line-height: 1rem;
 }
 
-.footer__email {
+.footer__form__email {
     display: grid;
     grid-template-columns: auto 3.375rem;
     padding: 0;
@@ -84,7 +84,7 @@
     background: white;
 }
 
-.footer__form:hover {
+.footer__form button:hover {
     background-color: #000;
     color: #fff;
 }
@@ -108,7 +108,7 @@
     color: #fff;
 }
 
-.footer__social a .fa-twitter {
+.footer__social .fa-twitter {
     color: #000;
 }
 

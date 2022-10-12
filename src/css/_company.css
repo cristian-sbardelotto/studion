@@ -5,13 +5,8 @@
 }
 
 .company-hero {
-  position: relative;
   height: 34.875rem;
   overflow: hidden;
-}
-
-.company-hero__image {
-  position: absolute;
 }
 
 .company-hero__copy {
@@ -24,7 +19,7 @@
 
 .company-hero__title {
   position: absolute;
-  top: 13.75rem;
+  top: 11rem;
   left: 49rem;
 
   margin: 0;
@@ -38,7 +33,7 @@
 
 .company-hero__copy p {
   position: absolute;
-  top: 24.5rem;
+  top: 22.5rem;
   left: 49rem;
   width: 36.8125rem;
 
