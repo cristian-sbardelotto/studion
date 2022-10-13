@@ -4,6 +4,32 @@
   box-sizing: border-box;
 }
 
+/* SEÇÃO HERO MOBILE */
+@media screen and (max-width: 720px) {
+  .fa-bars, .fa-times {
+    margin-right: 1rem;
+  }
+
+  .hero__copy {
+    display: flex;
+    flex-direction: column;
+    top: 6rem;
+    left: 3rem;
+
+    padding: 0;
+    width: fit-content;
+  }
+
+  .hero__copy h2 {
+    font-size: 4rem;
+  }
+
+  .hero__copy p {
+    font-size: 12px;
+    max-width: 38ch;
+  }
+}
+
 /* SEÇÃO CALL */
 
 .call {
@@ -48,14 +74,14 @@
     max-width: 350px;
     font-size: 15px;
     text-align: center;
-    margin: 0;
+    margin: 0 0 0 0.6875rem;  
   }
 
   .call h2 {
     font-size: 16px;
     max-width: 28ch;
     text-align: center;
-    margin: 0 0 1rem 2rem;
+    margin: 1rem 0 1rem 2rem;
   }
 
   .call__container img {
@@ -86,9 +112,24 @@
   font-weight: 800;
 }
 
+/* SEÇÃO BRANDS MOBILE */
+@media screen and (max-width: 720px) {
+  .brands__container img {
+    margin: 0 1rem 0 1rem;
+    width: 90%;
+  }
+}
+
 /* SEÇÃO VIDEO */
 
 .video__container {
   text-align: center;
   padding: 5.3125rem 0;
+}
+/* SEÇÃO VIDEO MOBILE */
+@media screen and (max-width: 720px) {
+  .video__container, .video__container img {
+    width: 99%;
+    padding: 0.5rem;
+  }
 }
