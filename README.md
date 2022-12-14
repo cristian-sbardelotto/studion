@@ -1,6 +1,6 @@
 <h1 align='center'>Studion</h1>
 
-- <p>Página fictícia simulando um gerenciador de eventos, fornecido pela Imagine School.</p>
+- <p>a fictitious page that simulates an event manager, provided by Imagine School.</p>
 
 <img src='./src/assets/studion-print.png' alt='Studion PrintScreen' />
 
