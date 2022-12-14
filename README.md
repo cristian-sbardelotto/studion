@@ -38,7 +38,7 @@ To check the deploy, click [this link](https://studion-eight.vercel.app).
 
 <p align='center'><code>npm install OR npm i</code></p>
 
-<p><code>yarn</code></p>
+<p align='center'><code>yarn</code></p>
 
 > <h3>To <strong>run the project</strong> on your browser, use</h3>
 
